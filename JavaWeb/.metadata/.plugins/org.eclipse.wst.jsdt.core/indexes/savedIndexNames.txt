@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\PoloFerreira\Desktop\AulaJavaPaty\JavaWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3777737872.index
+3372368356.index
+2011685303.index
+3438379741.index
+2817270294.index
+3705409416.index

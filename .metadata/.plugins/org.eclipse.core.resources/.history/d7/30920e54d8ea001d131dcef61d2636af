@@ -1,0 +1,24 @@
+package br.com.banco.modelo;
+
+public class ContaCorrente {
+	private int nConta;   // Aqui é uma variavel, chamamos de propriedades ou atributos da classe
+	private String titular; // alterar as propriedades de public para private, para garantir a segurança de dados.
+	private double saldo;
+
+	
+	//Alt + Shift + s + 0 Para criar um método construtor fixo (significa definir o tipo/configuração de informação que o sistema aceita)	
+		public ContaCorrente(int nConta, String titular, double saldo) {
+		super();
+		//a palavra reservada this, siginifica neste objeto
+		this.nConta = nConta;
+		this.titular = titular;
+		this.saldo = saldo;
+	}
+	
+	
+	void sacar() {
+		
+	
+	
+
+}

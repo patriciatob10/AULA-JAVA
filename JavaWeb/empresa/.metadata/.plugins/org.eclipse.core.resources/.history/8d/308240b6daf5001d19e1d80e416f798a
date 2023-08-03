@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Clientes</title>
+</head>
+<body>
+<h1>Cadastro de Clientes</h1>
+<hr>
+<div class="container"></div>
+
+<form class="row g-3">
+
+<div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Nome</label>
+    <input type="cliente" class="form-control">
+  </div>
+  
+  <hr>
+  
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Telefone</label>
+    <input type="number" class="form-control">
+  </div>
+  
+    <hr>
+  
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  
+    <hr>
+    
+    <button type="submit" class="btn btn-primary">cadastrar</button>
+  </div>
+  
+</form>
+</body>
+</html>

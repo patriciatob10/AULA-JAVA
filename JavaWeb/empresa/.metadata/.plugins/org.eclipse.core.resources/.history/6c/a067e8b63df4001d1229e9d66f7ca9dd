@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!--  frmCadastroEmpresa.html -->
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Kaspper - Cadastro Empresa</title>
+</head>
+<body>
+<h1>Cadastro de Nova Empresa</h1>
+<hr>
+
+<form>
+    Empresa <input type="text"><br>
+    CNPJ <input type="text"><br>
+    Email <input type="text"><br>
+    <input type="submit" value="Cadastrar Empresa">
+    
+</form>
+
+
+</body>
+</html>

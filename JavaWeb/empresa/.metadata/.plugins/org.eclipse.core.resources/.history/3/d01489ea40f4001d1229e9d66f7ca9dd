@@ -1,0 +1,33 @@
+package br.com.empresa.servlet;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class NovaempresaServlet {
+
+}
+
+
+
+
+
+
+@WebServlet(urlPatterns="/novaEmpresa")
+public class NovaEmpresaServlet extends HttpServlet{
+ 
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String nomeEmpresa = req.getParameter("nome");
+        String cnpjEmpresa = req.getParameter("cnpj");
+        String emailEmpresa = req.getParameter("email");
+        
+        saida.println("<html><body>");
+        saida.println("<br>Empresa: " + nomeEmpresa);
+        saida.println("<br>CNPJ: " + cnpjEmpresa);
+        saida.println("<br>E-mail: " + emailEmpresa);
+        
+        saida.println("Empresa Cadastrada");
+        saida.println("</html></body>");
+        
+        System.out.println("Cadastrado com Sucesso");
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="perfumariaweb">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <property name="context-root" value="perfumariaweb"/>
+        <property name="java-output-path" value="/perfumariaweb/build/classes"/>
+    </wb-module>
+</project-modules>

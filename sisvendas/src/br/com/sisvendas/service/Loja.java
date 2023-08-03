@@ -1,0 +1,16 @@
+package br.com.sisvendas.service;
+
+//indicar o local que está buscando esse arquivo
+import br.com.sisvendas.modelo.*;
+public class Loja {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Estoque p1 = new Estoque("computador",20,50,5);
+		
+		p1.venda();
+
+	}
+
+}

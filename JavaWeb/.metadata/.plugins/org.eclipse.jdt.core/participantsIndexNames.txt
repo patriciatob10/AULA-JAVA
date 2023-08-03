@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+C:\Users\PoloFerreira\Desktop\AulaJavaPaty\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1216757137.index
+\tarefas\src\main\java
+C:\Users\PoloFerreira\Desktop\AulaJavaPaty\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3258537366.index
+\lista-tarefas\src\main\java

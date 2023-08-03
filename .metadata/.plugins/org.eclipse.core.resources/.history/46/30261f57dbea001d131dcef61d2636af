@@ -1,0 +1,40 @@
+package br.com.banco;
+
+import br.com.banco.modelo.ContaCorrente;
+
+public class Banco {
+	
+	//AQUI É O ENtry POint - O ponto de Entrada	
+	public static void main(String[] args) {
+		
+		// Tipo(classe)       Obj   comando   método Construtor
+		// Quando crio uma classe eu crio um tipo (Não é arrey, string, boolean, etc.) 
+		// O c1 e c2 aqui é um objeto, mas é a variável.
+		ContaCorrente c1 = new   ContaCorrente (123,"Patrícia",5.787); // Aqui é um método construtor, significa que tudo o que vou criar vai entrar para dentro dele
+		ContaCorrente c2 = new   ContaCorrente (556,"Juan",30.500);
+		ContaCorrente c3 = new   ContaCorrente (859,"Isis",0.00);
+		
+		/* esse comando chama o método da classe ContaCorrente
+		c1.exibir();
+		c2.exibir();
+		c3.exibir();
+		*/
+		
+		c3.exibir();
+		c3.depositar(500);
+		c3.exibir();
+		c3.sacar(1000);
+		c3.exibir();
+		
+		
+		/*
+		System.out.println("Titular: " + this.titular);
+		System.out.println("Número da Conta: " + c1.nConta);
+		System.out.println("--------------------------------");
+		System.out.println("Titular: " + c2.titular);
+		System.out.println("Número da Conta: " + c2.nConta);
+		*/
+		
+	}
+
+}
